@@ -461,3 +461,130 @@ body {
     display: none;
   }
 }
+/* ===============================
+   Site Footer
+================================ */
+
+.site-footer {
+  background: linear-gradient(180deg, #061a2f, #041423);
+  color: #ffffff;
+  padding: 40px 80px 20px;
+  font-family: "Segoe UI", sans-serif;
+}
+
+/* Layout Container */
+.site-footer__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* ===============================
+   Brand / Logo
+================================ */
+
+.site-footer__brand {
+  display: flex;
+  align-items: center;
+}
+
+.site-footer__logo {
+  height: 56px;
+  width: auto;
+  object-fit: contain;
+}
+
+/* ===============================
+   Social Section
+================================ */
+
+.site-footer__social {
+  text-align: right;
+}
+
+.site-footer__social-title {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 12px;
+}
+
+/* Social List */
+.site-footer__social-list {
+  display: flex;
+  justify-content: flex-end;
+  gap: 14px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.site-footer__social-item {
+  display: inline-flex;
+}
+
+/* Social Link */
+.site-footer__social-link {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  color: #061a2f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  text-decoration: none;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.site-footer__social-link:hover {
+  background-color: #4caf50;
+  color: #ffffff;
+}
+
+/* ===============================
+   Divider
+================================ */
+
+.site-footer__divider {
+  height: 1px;
+  margin: 30px 0 15px;
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
+/* ===============================
+   Footer Bottom
+================================ */
+
+.site-footer__bottom {
+  text-align: center;
+  font-size: 14px;
+  opacity: 0.8;
+}
+
+/* ===============================
+   Responsive
+================================ */
+
+@media (max-width: 768px) {
+  .site-footer {
+    padding: 30px 20px;
+  }
+
+  .site-footer__container {
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .site-footer__social {
+    text-align: center;
+  }
+
+  .site-footer__social-list {
+    justify-content: center;
+  }
+
+  .site-footer__logo {
+    height: 44px;
+  }
+}
