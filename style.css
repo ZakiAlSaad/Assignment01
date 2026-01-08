@@ -278,3 +278,112 @@ body {
     font-size: 2rem;
   }
 }
+
+/* ========== SECOND BRAIN SECTION ========== */
+
+.second-brain {
+  padding: 6rem 1.5rem;
+  background-color: #ffffff;
+}
+
+.second-brain__container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: center;
+}
+
+/* ---------- Visual ---------- */
+
+.second-brain__visual {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.second-brain__image {
+  width: 100%;
+  max-width: 520px;
+  height: auto;
+}
+
+/* ---------- Content ---------- */
+
+.second-brain__eyebrow {
+  display: inline-block;
+  font-size: 0.875rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  color: #2f8f5b;
+  margin-bottom: 1rem;
+}
+
+.second-brain__title {
+  font-size: clamp(2rem, 3vw, 3rem);
+  line-height: 1.15;
+  font-weight: 800;
+  color: #0b1f33;
+  margin-bottom: 1.5rem;
+}
+
+.second-brain__description {
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: #5f6f82;
+  max-width: 520px;
+  margin-bottom: 2rem;
+}
+
+/* ---------- Feature List ---------- */
+
+.second-brain__features {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.second-brain__features li {
+  position: relative;
+  padding-left: 2rem;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  color: #0b1f33;
+}
+
+.second-brain__features li::before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 1.3rem;
+  height: 1.3rem;
+  border-radius: 50%;
+  background-color: #2f8f5b;
+  color: #ffffff;
+  font-size: 0.75rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ---------- Responsive ---------- */
+
+@media (max-width: 900px) {
+  .second-brain__container {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+    text-align: center;
+  }
+
+  .second-brain__description {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .second-brain__features li {
+    text-align: left;
+  }
+}
