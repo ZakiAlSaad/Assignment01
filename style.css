@@ -76,6 +76,7 @@ nav a:hover {
   background: #2b8a3e;
 }
 
+/* GLOBAL STYLES */
 * {
   margin: 0;
   padding: 0;
@@ -88,7 +89,7 @@ body {
   color: #222;
   line-height: 1.6;
 }
-
+/* ========== HERO BANNER ========== */
 .hero-banner {
   position: relative;
   min-height: 90vh;
@@ -461,9 +462,8 @@ body {
     display: none;
   }
 }
-/* ===============================
-   Site Footer
-================================ */
+/* 
+   Footer Styles */
 
 .site-footer {
   background: linear-gradient(180deg, #061a2f, #041423);
@@ -479,9 +479,9 @@ body {
   align-items: center;
 }
 
-/* ===============================
+/* 
    Brand / Logo
-================================ */
+ */
 
 .site-footer__brand {
   display: flex;
@@ -494,9 +494,9 @@ body {
   object-fit: contain;
 }
 
-/* ===============================
+/*
    Social Section
-================================ */
+ */
 
 .site-footer__social {
   text-align: right;
@@ -542,9 +542,9 @@ body {
   color: #ffffff;
 }
 
-/* ===============================
+/* 
    Divider
-================================ */
+ */
 
 .site-footer__divider {
   height: 1px;
@@ -552,9 +552,9 @@ body {
   background-color: rgba(255, 255, 255, 0.15);
 }
 
-/* ===============================
+/* 
    Footer Bottom
-================================ */
+ */
 
 .site-footer__bottom {
   text-align: center;
@@ -562,9 +562,9 @@ body {
   opacity: 0.8;
 }
 
-/* ===============================
+/* 
    Responsive
-================================ */
+ */
 
 @media (max-width: 768px) {
   .site-footer {
