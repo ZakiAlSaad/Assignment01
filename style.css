@@ -92,7 +92,7 @@ body {
 .hero-banner {
   position: relative;
   min-height: 90vh;
-  background: url("/Images/hero-bg.png") center/cover no-repeat;
+  background: url("Images/hero-bg.png") center/cover no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;
