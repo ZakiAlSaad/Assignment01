@@ -387,3 +387,77 @@ body {
     text-align: left;
   }
 }
+
+/* ========== EARLY ACCESS CTA ========== */
+
+.early-access {
+  padding: 5rem 1.5rem;
+  background-color: #ffffff;
+}
+
+.early-access__container {
+  max-width: 1100px;
+  margin: 0 auto;
+  background-color: #faf8f2;
+  border-radius: 14px;
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+/* ---------- Text ---------- */
+
+.early-access__title {
+  font-size: clamp(2rem, 3vw, 2.75rem);
+  font-weight: 800;
+  color: #0b1f33;
+  margin-bottom: 1rem;
+}
+
+.early-access__subtitle {
+  font-size: 1.05rem;
+  line-height: 1.6;
+  color: #6b7c8f;
+  margin-bottom: 2.25rem;
+}
+
+/* ---------- Button ---------- */
+
+.early-access__button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  background-color: #3f8f63;
+  color: #ffffff;
+  font-size: 0.95rem;
+  font-weight: 600;
+  padding: 0.85rem 1.5rem;
+  border-radius: 8px;
+  text-decoration: none;
+  box-shadow: 0 8px 20px rgba(63, 143, 99, 0.25);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.early-access__button:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 12px 28px rgba(63, 143, 99, 0.3);
+}
+
+/* ---------- Fine Print ---------- */
+
+.early-access__note {
+  margin-top: 1.75rem;
+  font-size: 0.9rem;
+  color: #6b7c8f;
+}
+
+/* ---------- Responsive ---------- */
+
+@media (max-width: 600px) {
+  .early-access__container {
+    padding: 3rem 1.5rem;
+  }
+
+  .early-access__subtitle br {
+    display: none;
+  }
+}
